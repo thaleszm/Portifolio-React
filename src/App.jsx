@@ -7,10 +7,13 @@ import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 import Testimonials from "./sections/Testimonials";
 import Navbar from "./components/Navbar";
+import ParticlesBackground from "./components/ParticlesBackground";
 
 export default function App() {
   return (
-    <div>
+    <div className="relative gradient text-white">
+      <ParticlesBackground />
+
       <Navbar />
       <Home />
       <About />
